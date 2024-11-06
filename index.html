@@ -1,8 +1,102 @@
-<html>
-	<title>这是一个测试页面</title>
-	<body>
-		<h1>
-			这是一个测试页面
-		</h1>
-	</body>
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>AI 图像生成器</title>
+	<link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+	<header>
+		<nav>
+			<div class="logo">AI 图像生成器</div>
+			<div class="nav-links">
+				<a href="#home">首页</a>
+				<a href="#services">服务</a>
+				<a href="#pricing">价格</a>
+				<a href="#about">关于我们</a>
+			</div>
+		</nav>
+	</header>
+
+	<div class="container">
+		<div class="main-content">
+			<h1>AI 智能图像生成</h1>
+			<p>输入您的创意描述，让 AI 为您生成独特的图像</p>
+
+			<div class="input-section">
+				<textarea placeholder="请输入您的图像描述..."></textarea>
+				<button class="generate-btn">生成图像</button>
+			</div>
+
+			<div class="loading"></div>
+
+			<div class="result-section">
+				<img class="result-image" alt="生成的图像">
+			</div>
+		</div>
+	</div>
+
+	<section class="pricing-section">
+		<div class="pricing-title">
+			<h2>选择适合您的方案</h2>
+			<p>为您的创意提供最优质的服务</p>
+		</div>
+		<div class="pricing-cards">
+			<div class="pricing-card">
+				<h3>基础版</h3>
+				<div class="price">¥99/月</div>
+				<ul class="price-features">
+					<li>每日100次生成额度</li>
+					<li>标准分辨率输出</li>
+					<li>基础客户支持</li>
+					<li>无水印导出</li>
+				</ul>
+				<button class="generate-btn">立即开始</button>
+			</div>
+			<div class="pricing-card featured">
+				<h3>专业版</h3>
+				<div class="price">¥199/月</div>
+				<ul class="price-features">
+					<li>每日500次生成额度</li>
+					<li>高分辨率输出</li>
+					<li>优先客户支持</li>
+					<li>商业授权使用</li>
+				</ul>
+				<button class="generate-btn">立即开始</button>
+			</div>
+			<div class="pricing-card">
+				<h3>企业版</h3>
+				<div class="price">¥499/月</div>
+				<ul class="price-features">
+					<li>无限生成次数</li>
+					<li>超高分辨率输出</li>
+					<li>24/7专属支持</li>
+					<li>API接口调用</li>
+				</ul>
+				<button class="generate-btn">立即开始</button>
+			</div>
+		</div>
+	</section>
+
+	<!-- 页脚 -->
+	<footer>
+		<div class="footer-content">
+			<div class="footer-links">
+				<a href="#about">关于我们</a>
+				<a href="#privacy">隐私政策</a>
+				<a href="#terms">服务条款</a>
+				<a href="#contact">联系我们</a>
+			</div>
+			<div class="copyright">
+				© 2024 AI 图像生成器. All rights reserved.
+			</div>
+		</div>
+	</footer>
+
+	<script src="script.js"></script>
+</body>
+
 </html>
